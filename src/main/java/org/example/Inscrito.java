@@ -12,7 +12,7 @@ public class Inscrito implements Observer {
     }
 
     public String getultimoVideoNotificado(){
-        return this.getultimoVideoNotificado();
+        return this.ultimoVideoNotificado;
     }
 
     public void inscrever(CanalYoutube canalYoutube){

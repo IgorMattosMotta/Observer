@@ -1,7 +1,12 @@
 package org.example;
 
 public class Video {
-    private String video(){
+    public String video(){
         return "Vídeo novo!";
+    }
+
+    @Override
+    public String toString(){
+        return video();
     }
 }
